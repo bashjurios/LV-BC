@@ -45,7 +45,6 @@ client.on("message", async message => {
                                         message.guild.members.forEach(member => {
                                             let bc = new Discord.RichEmbed()
                                             .setColor("RANDOM")
-                                            .addField("Message", args);
 
                                             member.sendEmbed(bc);
                                         });
